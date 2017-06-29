@@ -34,3 +34,5 @@ WORKDIR /workspace
 EXPOSE 8888
 
 ENTRYPOINT ["/usr/local/bin/tini","--"]
+
+CMD jupyter notebook --ip=0.0.0.0 --no-browser --NotebookApp.token='' --allow-root --NotebookApp.iopub_data_rate_limit=1.0e10
