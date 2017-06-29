@@ -1,2 +1,2 @@
 # lfe-docker
-Linear feature extraction docker container
+Linear feature extraction docker container.
